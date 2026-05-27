@@ -1,3 +1,17 @@
 telegram:
- token: "8821242193:AAH_xj2SE679_-WlbmFrW7dzICp2N0TLKMU"
- chat_id: "8360598059"
+  token: "TOKEN"
+  chat_id: "CHAT_ID"
+
+scanner:
+  timeout: 1
+  max_threads: 100
+
+portscan:
+  ports:
+    - 21
+    - 22
+    - 80
+    - 443
+
+dirscan:
+  wordlist: "./wordlists/common.txt"
