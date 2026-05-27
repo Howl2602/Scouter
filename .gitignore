@@ -1,3 +1,5 @@
 settings.yaml
 __pycache__/
 *.pyc
+config/settings.yaml
+logs/log.txt
