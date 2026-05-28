@@ -1,10 +1,10 @@
 telegram:
-  token: "TOKEN"
-  chat_id: "CHAT_ID"
+  token: "123456789:ABCdefGHIjklmNOPQrsTUVwxyz_FAKE_TOKEN"
+  chat_id: "987654321"
 
 scanner:
-  timeout: 1
-  max_threads: 100
+  timeout: 2
+  max_threads: 500
 
 portscan:
   target: "scanme.nmap.org"

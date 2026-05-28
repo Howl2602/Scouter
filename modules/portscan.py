@@ -24,9 +24,9 @@ def scan_single_port(target, port, timeout):
     return None
 
 
-def scan_ports(target, startport, endport, timeout, max_threads):
+def scan_ports(target, start_port, end_port, timeout, max_threads):
 
-    ports = range(startport, endport)
+    ports = range(start_port, end_port + 1)
 
     open_ports = []
 
