@@ -1,4 +1,5 @@
 #notifier.py
+
 import requests
 from core.config import config
 
@@ -11,7 +12,8 @@ def send_message(message):
 
     payload = {
         "chat_id": CHAT_ID,
-        "text": message
+        "text": message,
+        "parse_mode": "Markdown"
     }
 
     response = requests.post(url, data=payload)

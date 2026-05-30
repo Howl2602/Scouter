@@ -1,5 +1,6 @@
 #engine.py
-from modules.portscan import scan_ports
+
+from modules import scan_ports
 from core.notifier import send_message
 from core.config import config
 from utils.helpers import format_alert_message
@@ -19,3 +20,4 @@ def run():
     msg = format_alert_message(target, open_ports)
     
     send_message(msg)
+    
